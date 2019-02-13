@@ -66,8 +66,8 @@
 							</svg>
 						</section>
 						<section class="findlist_text">
-							<span v-if="pathUrl">钱包</span>
-							<span v-else>附近的人</span>
+							<span v-if="pathUrl">Wallet</span>
+							<span v-else>Nearby</span>
 						</section>
 					</div>
 				</div>
@@ -109,8 +109,8 @@
 							</svg>
 						</section>
 						<section class="findlist_text">
-							<span v-if="pathUrl">设置</span>
-							<span v-else>小程序</span>
+							<span v-if="pathUrl">Settings</span>
+							<span v-else>Tiny App</span>
 						</section>
 					</div>
 				</div>
@@ -120,8 +120,8 @@
 			<div class="reminder_cover"></div>
 			<div class="reminder_content" :class="{alertshow : remindershow, alerthide : reminderhide}">
 				<img :src="gifSrc" alt="" class="alertimg">
-				<p class="alert_text">正在开发中...</p>
-				<div class="alert_affirm" @click="affirmAlert">确认</div>
+				<p class="alert_text">Under Construction</p>
+				<div class="alert_affirm" @click="affirmAlert">Confirm</div>
 			</div>
 		</section>
 	</section>	
@@ -205,7 +205,7 @@
 					
 				}
 			},
-			wallet(){//附近的人或钱包
+			wallet(){//Nearby或Wallet
 				if(this.$route.path.indexOf("find") !== -1){
 					this.showPart()
 				}else{
@@ -223,7 +223,7 @@
 			gamesFace(){
 				this.showPart()
 			},
-			affirmAlert(){//提醒确认
+			affirmAlert(){//提醒Confirm
 				this.reminderhide=true;
 				this.remindershow=false;
 				this.timer=setTimeout(()=>{

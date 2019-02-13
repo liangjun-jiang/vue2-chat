@@ -1,4 +1,4 @@
-//钱包数据
+//Wallet数据
 /*
 *servicelogo:服务logo
 *servicename:服务名称

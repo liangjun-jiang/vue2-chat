@@ -22,7 +22,7 @@
 			</div>
 			<div class="details_li">
 				<router-link to='' class="setnote">
-					设置备注和标签
+					Settings备注和标签
 				</router-link>
 			</div>
 			<div class="details_person">

@@ -1,6 +1,6 @@
 <template>
 	<section class="child_page">
-		<head-top crossover="设置"></head-top>
+		<head-top crossover="Settings"></head-top>
 		<section class="settings">
 			<ul>
 				<router-link to='/me/settings/newmessage' tag="li">

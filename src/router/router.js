@@ -84,14 +84,14 @@ export default[{
 				},
 				{
 					path:'/find/miniapps',
-					component:miniapps, //小程序
+					component:miniapps, //Tiny App
 				},
 			]
 		},	//Discover
 		{path: '/search', component: search},	//Discover
 		{path: '/me', component: me,
 			children: [
-				{path:'/me/settings',component: settings,//设置
+				{path:'/me/settings',component: settings,//Settings
 					children: [
 						{
 							path:'/me/settings/newmessage',
@@ -140,7 +140,7 @@ export default[{
 					path:'/me/collect',component : collect,		//Me的Favorite
 				},
 				{
-					path:'/me/wallet',component : wallet,		//钱包
+					path:'/me/wallet',component : wallet,		//Wallet
 				},
  			]
 		},	//Me

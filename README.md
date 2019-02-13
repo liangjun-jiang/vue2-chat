@@ -50,7 +50,7 @@ npm run dev (访问本地，运行后访问 http://localhost:8882)
 - [x] Address Book右边导航功能
 - [x] Discover 
 - [x] Me
-- [x] 设置
+- [x] Settings
 - [x] 新消息提醒
 - [x] 勿扰模式
 - [x] 聊天
@@ -68,9 +68,9 @@ npm run dev (访问本地，运行后访问 http://localhost:8882)
 - [x] 个人相册
 - [x] 更多
 - [x] Favorite
-- [x] Me的钱包
+- [x] Me的Wallet
 - [x] 购物
-- [x] 设置
+- [x] Settings
 - [x] 登录
 
 # 页面部分截图
@@ -137,7 +137,7 @@ npm run dev (访问本地，运行后访问 http://localhost:8882)
 │   │   │   ├── friendcircle
 │   │   │   │   └── friendcircle.vue             // 朋友圈
 │   │   │   └── miniapps
-│   │   │       └── miniapps.vue                 // 小程序子页面
+│   │   │       └── miniapps.vue                 // Tiny App子页面
 │   │   ├── me
 │   │   │   ├── cardbag
 │   │   │   │   └── cardbag.vue                  // 卡包
@@ -158,9 +158,9 @@ npm run dev (访问本地，运行后访问 http://localhost:8882)
 │   │   │   │   │   ├── login.vue                // 登录
 │   │   │   │   │   ├── newmessage.vue           // 新消息提醒
 │   │   │   │   │   └── privacy.vue              // 隐私
-│   │   │   │   └── settings.vue                 // 设置
+│   │   │   │   └── settings.vue                 // Settings
 │   │   │   └── wallet
-│   │   │       └── wallet.vue                   // Me的钱包
+│   │   │       └── wallet.vue                   // Me的Wallet
 │   │   ├── search
 │   │       └── search.vue                       // 搜索     
 │   ├── images
@@ -170,7 +170,7 @@ npm run dev (访问本地，运行后访问 http://localhost:8882)
 │   ├── service
 │   │   ├── data
 │   │   │   ├── album.js                        // 个人相册
-│   │   │   ├── burse.js                        // 钱包数据
+│   │   │   ├── burse.js                        // Wallet数据
 │   │   │   ├── chatmore.js
 │   │   │   ├── collect.js                     // Me的Favorite
 │   │   │   ├── contacts.js                    // 联系人列表数据

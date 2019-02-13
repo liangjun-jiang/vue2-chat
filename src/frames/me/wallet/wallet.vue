@@ -1,6 +1,6 @@
 <template>
 	<section class="child_page">
-		<head-top crossover="Me的钱包"></head-top>
+		<head-top crossover="Me的Wallet"></head-top>
 		<section class="wallet">
 			<div class="wallet_top">
 				<div>

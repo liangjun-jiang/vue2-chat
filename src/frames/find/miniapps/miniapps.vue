@@ -1,6 +1,6 @@
 <template>
 	<section class="child_page">
-		<head-top crossover="小程序"></head-top>
+		<head-top crossover="Tiny App"></head-top>
 		<section class="miniapp">
 			<ul>
 				<li>
@@ -30,7 +30,7 @@
 						</svg>
 					</div>
 					<div class="app_name">
-						<span>小程序实例</span>
+						<span>Tiny App实例</span>
 					</div>
 				</li>
 			</ul>
