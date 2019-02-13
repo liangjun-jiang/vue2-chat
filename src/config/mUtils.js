@@ -103,7 +103,7 @@ export const animate = (element, target, duration = 400, mode = 'ease-out', call
 
 
     let flag = true; //假设所有运动到达终点
-    const remberSpeed = {};//记录上一个速度值,在ease-in模式下需要用到
+    const remberSpeed = {};//记上一个速度值,在ease-in模式下需要用到
     element.timer = setInterval(() => {
         Object.keys(target).forEach(attr => {
             let iSpeed = 0;  //步长

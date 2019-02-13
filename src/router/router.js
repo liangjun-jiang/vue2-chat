@@ -60,7 +60,7 @@ export default[{
 					component: groupchatmessage,
 				}
 			]
-		},			//群聊	
+		},			//Group Chat	
 		{path: '/addressbook', component: addressbook, meta:{ keepAlive: true},
 			children: [
 				{
@@ -144,7 +144,7 @@ export default[{
 				},
  			]
 		},	//Me
-		{path: '/computer', component: computer},	//电脑登录
+		{path: '/computer', component: computer},	//电脑登
 		{path: '/transfer', component: transfer},	//文件传送助手
 	]
 }]

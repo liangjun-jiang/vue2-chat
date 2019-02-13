@@ -20,7 +20,7 @@
 import {imgurl} from 'src/config/env';
 
 
-//同学录数据
+//同学数据
 export const contacts = {
 A:[
 	{
@@ -74,7 +74,7 @@ C:[
 			imgurl+'caiwei.jpg',imgurl+'lichun.jpg',
 		],
 		"district":"淳公主的侍女",
-		"source":"通过群聊添加",
+		"source":"通过Group Chat添加",
 		"newmeassage":"一发型师在给一个女客人做头发的时候把她脸给烫伤了，后来经过协商。。。。他把她给娶了。。。",
 		"sendobject":1,
 		"Messageblob":"",
@@ -108,7 +108,7 @@ C:[
 			imgurl+'b1.jpg',imgurl+'chenyuan.jpg',imgurl+'yexun.jpg'
 		],
 		"district":"燕洵手下将军",
-		"source":"通过群聊添加",
+		"source":"通过Group Chat添加",
 		"newmeassage":"跟长辈聊天时，Me们总是用尽方法想讨他们开心，而长辈三言两语就可以让Me们烦心。",
 		"sendobject":1,
 		"Messageblob":"",
@@ -147,7 +147,7 @@ F:[
 			imgurl+'b1.jpg',imgurl+'fengmian.jpg',imgurl+'yuanchun.jpg'
 		],
 		"district":"燕洵的书童",
-		"source":"通过群聊添加",
+		"source":"通过Group Chat添加",
 		"newmeassage":"身边总有几个这样的朋友，第一次遇见斯斯文文的，熟识之后会发与不知道是哪个精神病院放出来的。",
 		"sendobject":1,
 		"Messageblob":"",
@@ -168,7 +168,7 @@ H:[
 		],
 		"district":"燕洵的书童",
 		"source":"通过搜索手机号添加",
-		"source":"通过群聊添加",
+		"source":"通过Group Chat添加",
 		"newmeassage":"全国人民都上听了，单吊敬业福。",
 		"sendobject":1,
 		"Messageblob":"",
@@ -188,8 +188,8 @@ J:[
 			imgurl+'jinghan.jpg',imgurl+'zhongyu.jpg',
 		],
 		"district":"大夏云绸封地景小王爷",
-		"source":"通过群聊添加",
-		"source":"通过群聊添加",
+		"source":"通过Group Chat添加",
+		"source":"通过Group Chat添加",
 		"newmeassage":"春节Discover，原来“喜新厌旧”还可以说成“辞旧迎新”这般高尚！",
 		"sendobject":1,
 		"Messageblob":"",
@@ -206,7 +206,7 @@ J:[
 			imgurl+'jingsi.jpg',imgurl+'yuwenyue.jpg',
 		],
 		"district":"青山院大丫鬟",
-		"source":"通过群聊添加",
+		"source":"通过Group Chat添加",
 		"newmeassage":"刚领导问Me：“你觉得这个项目最大的风险是什么？” ，Me：“Me怕加班猝死。。。”",
 		"sendobject":1,
 		"Messageblob":"",
@@ -226,7 +226,7 @@ L:[
 			imgurl+'lanshuyi.jpg',imgurl+'yuwenyue.jpg',
 		],
 		"district":"大魏淑仪，来历成谜。",
-		"source":"通过群聊添加",
+		"source":"通过Group Chat添加",
 		"newmeassage":"名人用过的东西叫“文物”；凡人用过的视为“废物”。",
 		"sendobject":1,
 		"Messageblob":"",
@@ -260,7 +260,7 @@ L:[
 			imgurl+'lanshuyi.jpg',imgurl+'yuwenyue.jpg',
 		],
 		"district":"南梁太子",
-		"source":"通过群聊添加",
+		"source":"通过Group Chat添加",
 		"newmeassage":"名人蓬头垢面谓“艺术气质”；凡人不修边幅叫“流里流气”。",
 		"sendobject":1,
 		"Messageblob":"",
@@ -303,7 +303,7 @@ S:[
 			imgurl+'mengfeng.jpg',imgurl+'yuwenyue.jpg',
 		],
 		"district":"魏阀",
-		"source":"通过群聊添加",
+		"source":"通过Group Chat添加",
 		"newmeassage":"名人的空话谓“指导”；凡人的实话叫“唠叨”。",
 		"sendobject":1,
 		"Messageblob":"",
@@ -325,7 +325,7 @@ W:[
 			imgurl+'wudaoya.jpg',imgurl+'zhaosong.jpg',
 		],
 		"district":"燕北",
-		"source":"通过群聊添加",
+		"source":"通过Group Chat添加",
 		"newmeassage":"钱财多的回家少，美貌多的穿衣少，想法多的成事少，劳累多的收入少，权力多的时间少，情人多的安宁少，朋友多的困难少，锻炼多的疾病少。 ",
 		"sendobject":1,
 		"Messageblob":"",
@@ -359,7 +359,7 @@ X:[
 			imgurl+'h.jpg',imgurl+'d.jpg',imgurl+'hu.jpg',
 		],
 		"district":"大陆道尊",
-		"source":"通过群聊添加",
+		"source":"通过Group Chat添加",
 		"newmeassage":"皇叔是仁德的；爱民是如子的；特长是会哭的；眼泪是充足的。",
 		"sendobject":1,
 		"Messageblob":"",
@@ -376,7 +376,7 @@ X:[
 			imgurl+'xiaoyu.jpg',imgurl+'yuwenyue.jpg'
 		],
 		"district":"南梁",
-		"source":"通过群聊添加",
+		"source":"通过Group Chat添加",
 		"newmeassage":"孔明是伟大的；治国是有方的；用兵是如神的；放火是专长的。 ",
 		"sendobject":1,
 		"Messageblob":"",
@@ -395,7 +395,7 @@ Y:[
 			imgurl+'yexun.jpg',imgurl+'yuwenyue.jpg'
 		],
 		"district":"西凉",
-		"source":"通过群聊添加",
+		"source":"通过Group Chat添加",
 		"newmeassage":"庞统是可惜的；出场是很少的；长相是挺丑的；死的是很惨的。",
 		"sendobject":1,
 		"Messageblob":"",
@@ -412,7 +412,7 @@ Y:[
 			imgurl+'yuanchun.jpg',imgurl+'yuwenyue.jpg'
 		],
 		"district":"西魏公主",
-		"source":"通过群聊添加",
+		"source":"通过Group Chat添加",
 		"newmeassage":"云长是红脸的；胡子是很长的；自负是肯定的；倒霉是迟早的。",
 		"sendobject":1,
 		"Messageblob":"",
@@ -431,7 +431,7 @@ Z:[
 			imgurl+'zhaosong.jpg',imgurl+'yuwenyue.jpg'
 		],
 		"district":"大魏十三皇子",
-		"source":"通过群聊添加",
+		"source":"通过Group Chat添加",
 		"newmeassage":"翼德是莽撞的；粗中是有细的；嗓门是挺大的；睡觉是睁眼的。",
 		"sendobject":1,
 		"Messageblob":"",

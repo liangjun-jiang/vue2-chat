@@ -13,7 +13,7 @@
 			<section class="coversationlist">
 				<div class="underscore" v-if="underscore">————&nbsp;Me是有底线的&nbsp;————</div>
 				<ul>
-					<!--  群聊-->
+					<!--  Group Chat-->
 					<li v-for="item in groupconversine" >
 						<div class="other" :class="{mysay : item.user_id == userInfo.id }">
 							<div class="say-time">{{item.time}}</div>
@@ -149,7 +149,7 @@
 				chatData:{},
 				imgurl,
 				userId:'',
-				allgroups:[],	//所有群聊信息
+				allgroups:[],	//所有Group Chat信息
 
 			}
 		},

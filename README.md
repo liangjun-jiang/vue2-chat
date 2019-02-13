@@ -1,6 +1,6 @@
 ### 前言
 
-这个项目是利用工作之余写的一个模仿Chatbotapp的单页面应用，整个项目包含27个页面，涉及实时群聊，Airbot，同学录，朋友圈等等，后续页面还是开发中。写这个项目主要目的是练习和熟悉vue和vuex的配合使用，利用socket.io实现实时聊天。
+这个项目是利用工作之余写的一个模仿Chatbotapp的单页面应用，整个项目包含27个页面，涉及实时Group Chat，Airbot，同学，朋友圈等等，后续页面还是开发中。写这个项目主要目的是练习和熟悉vue和vuex的配合使用，利用socket.io实现实时聊天。
 
 欢迎各路大神Issues
 
@@ -54,12 +54,12 @@ npm run dev (访问本地，运行后访问 http://localhost:8882)
 - [x] 新消息提醒
 - [x] 勿扰模式
 - [x] 聊天
-- [x] widows Chatbot已登录
+- [x] widows ChatbotLogged In
 - [x] 搜索页
 - [x] 对话页
 - [x] 对话功能
 - [x] 单人机器人智能对话页
-- [x] 群聊
+- [x] Group Chat
 - [x] 朋友圈
 - [x] 朋友圈点赞、评论
 - [x] 个人中心
@@ -71,11 +71,11 @@ npm run dev (访问本地，运行后访问 http://localhost:8882)
 - [x] Me的Wallet
 - [x] 购物
 - [x] Settings
-- [x] 登录
+- [x] 登
 
 # 页面部分截图
 
-### 单人聊天、群聊
+### 单人聊天、Group Chat
 
 <img src="https://github.com/bailichen/vue-weixin/raw/master/printscreen/singlechat.gif" width="300" height="530" alt="">  <img src="https://github.com/bailichen/vue-weixin/raw/master/printscreen/groupchat.gif" width="300" height="530" alt="">
 
@@ -98,7 +98,7 @@ npm run dev (访问本地，运行后访问 http://localhost:8882)
 ├── index.html
 ├── package.json
 ├── printscreen
-├── src                                          // 源码目录
+├── src                                          // 源码目
 │   ├── App.vue                                  // 页面入口文件
 │   ├── components                               // 公共组件
 │   │   ├── findandMe
@@ -123,12 +123,12 @@ npm run dev (访问本地，运行后访问 http://localhost:8882)
 │   │   │       └── more
 │   │   │           └── more.vue                 // 更多
 │   │   ├── computer
-│   │   │   └── computer.vue                     // pc端登录
+│   │   │   └── computer.vue                     // pc端登
 │   │   ├── conversation
 │   │   │   ├── chatmessage
 │   │   │   │   ├── chatmessage.vue              // 单人聊天信息
-│   │   │   │   └── groupchatmessage.vue         // 群聊聊天信息
-│   │   │   ├── groupchat.vue                    // 群聊
+│   │   │   │   └── groupchatmessage.vue         // Group Chat聊天信息
+│   │   │   ├── groupchat.vue                    // Group Chat
 │   │   │   └── singlechat.vue                   // 单人对话
 │   │   ├── dialogue
 │   │   │   └── dialogue.vue                     // Chatbot首页(对话列表页)
@@ -155,7 +155,7 @@ npm run dev (访问本地，运行后访问 http://localhost:8882)
 │   │   │   │   │   ├── currency.vue             // 通用
 │   │   │   │   │   ├── disturbance.vue          // 勿扰模式
 │   │   │   │   │   ├── help.vue                 // 帮助与反馈
-│   │   │   │   │   ├── login.vue                // 登录
+│   │   │   │   │   ├── login.vue                // 登
 │   │   │   │   │   ├── newmessage.vue           // 新消息提醒
 │   │   │   │   │   └── privacy.vue              // 隐私
 │   │   │   │   └── settings.vue                 // Settings
@@ -176,7 +176,7 @@ npm run dev (访问本地，运行后访问 http://localhost:8882)
 │   │   │   ├── contacts.js                    // 联系人列表数据
 │   │   │   ├── dialoglist.js                  // 对话列表
 │   │   │   ├── friendcircle.js                // 朋友圈数据
-│   │   │   ├── groupchat.js                   // 群聊数据
+│   │   │   ├── groupchat.js                   // Group Chat数据
 │   │   │   ├── login.js                       // 个人用户信息
 │   │   │   ├── search.js                      // 搜索的分类
 │   │   │   └── userword.js

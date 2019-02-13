@@ -1,7 +1,7 @@
-//群聊数据
+//Group Chat数据
 /*
 *petname:群名
-*group:群聊人信息
+*group:Group Chat人信息
 *wxid:Chatbot号
 *headurl:头像图片地址
 *petname:昵称	

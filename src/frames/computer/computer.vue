@@ -16,7 +16,7 @@
 					</svg>
 				</div>
 			</section>
-			<p class="computer_text">Windows Chatbot已登录</p>
+			<p class="computer_text">Windows ChatbotLogged In</p>
 			<p class="computer_text">如果不是本人操作，可以立即退出</p>
 			<section class="soundoff">
 				<div class="silence">
@@ -83,7 +83,7 @@
 				'COMPUTER_SHOW'
 			]),
 			ifMute(){
-				//记录是否静音
+				//记是否静音
 				if(!this.mute){
 					this.RECORD_MUTE(true)
 				}else{

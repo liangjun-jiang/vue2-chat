@@ -25,7 +25,7 @@ export const dialog = [
 	"headurl": "https://picsum.photos/200/300/?random",//imgurl+'robot.jpg',
 	"petname":"Airbot",
 	"remarks":"Airbot",
-	"newmeassage":"请从Address Book的联系人进入机器人单人聊天",
+	"newmeassage":"Travel Agent",
 	"sendobject":1,
 },
 ]

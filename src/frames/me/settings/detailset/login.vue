@@ -21,7 +21,7 @@
 				</div>
 			</div>
 			<div class="login_botton" @click="loginSuccess"> 
-				登 录
+				登 
 			</div>
 		</section>
 	</section>	

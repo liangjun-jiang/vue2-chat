@@ -22,7 +22,7 @@
 							</svg>
 						</div>
 						<div class="contacts_text">
-							群聊
+							Group Chat
 						</div>
 					</router-link>
 					<router-link to="" tag="li" class="contacts_li">

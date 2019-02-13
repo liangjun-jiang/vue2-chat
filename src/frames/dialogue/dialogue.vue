@@ -3,7 +3,7 @@
 		<!-- 头部 -->
 		<head-top logo-part="true" search-part="true" add="true"></head-top>
 		<div class="dialogue_con">
-			<!-- 电脑登录 -->
+			<!-- 电脑登 -->
 			<section class="computer" v-if="computershow">
 				<router-link to='/computer' class="computer_link">
 					<section class="computer_icon">
@@ -11,7 +11,7 @@
 							<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#computer"></use>
 						</svg>
 					</section>
-					<section class="computer_text">Windows Chatbot已登录<span v-if="mute">， 手机通知已关闭</span></section>
+					<section class="computer_text">Windows ChatbotLogged In<span v-if="mute">， 手机通知已关闭</span></section>
 				</router-link>
 			</section>
 			<!-- 对话列表 -->
@@ -39,7 +39,7 @@
 					</router-link>
 				</ul>
 			</section>
-			<!-- 群聊 -->
+			<!-- Group Chat -->
 			<section class="conversation">
 				<ul>
 					<router-link to="/groupchat" tag="li">
@@ -52,11 +52,11 @@
 						</div>
 						<div class="infordetail">
 							<div class="infordetail_top clear">
-								<span class="left ellipsis">群聊</span>
+								<span class="left ellipsis">Group Chat</span>
 								<span class="right">12:07</span>
 							</div>
 							<div class="infordetail_bot ellipsis">
-								请同学们文明交流~~~
+								No rules set~~~
 							</div>
 						</div>
 					</router-link>
@@ -78,7 +78,7 @@
 						</div>
 					</div>
 					<div class="login_botton" @click="loginSuccess"> 
-						登 录
+						登 
 					</div>
 				</section>
 			</div>

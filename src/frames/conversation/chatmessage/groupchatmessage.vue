@@ -15,7 +15,7 @@
 		<section class="chat">
 			<ul>
 				<li>
-					<div>群聊名称</div>
+					<div>Group Chat名称</div>
 					<div class="voice-music">{{gropname}}</div>
 				</li>
 				<li>
@@ -24,7 +24,7 @@
 			</ul>
 			<ul>
 				<li>
-					<div>查看聊天记录</div>
+					<div>查看聊天记</div>
 				</li>
 				<li>
 					<div>消息免打扰</div>

@@ -24,13 +24,13 @@
 					<div>表情管理</div>
 				</li>
 			</ul>
-			<h1 class="chatrecord">聊天记录</h1>
+			<h1 class="chatrecord">聊天记</h1>
 			<ul>
 				<li>
-					<div>聊天记录迁移</div>
+					<div>聊天记迁移</div>
 				</li>
 				<li>
-					<div>清空聊天记录</div>
+					<div>清空聊天记</div>
 				</li>
 			</ul>
 		</section>

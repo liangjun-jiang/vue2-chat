@@ -15,11 +15,11 @@ import {
 } from './mutation-types.js'
 
 export default {
-	//记录是否电脑静音
+	//记是否电脑静音
 	[RECORD_MUTE](state,mutestatus){
 		state.mute=mutestatus;
 	},
-	//是否电脑登录
+	//是否电脑登
 	[COMPUTER_SHOW](state, computerstatus){
 		state.computershow=computerstatus;
 	},
@@ -59,7 +59,7 @@ export default {
 	[LOGIN_COVER](state,consumerthing){
 		state.consumerthing=consumerthing;
 	},
-	//获取所有群聊人信息
+	//获取所有Group Chat人信息
 	[GET_ALLGROUP](state,allgroup){
 		state.allgroup=allgroup
 	}
