@@ -11,7 +11,7 @@
 					</div>
 				</li>
 				<li>
-					<div>回车键发送信息</div>
+					<div>回车键Send信息</div>
 					<div class="push-button">
 						<input class='tgl tgl-light' id='video' type='checkbox' checked="checked">
 						<label class='tgl-btn' for='video'></label>

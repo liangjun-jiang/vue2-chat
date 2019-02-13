@@ -78,7 +78,7 @@
 				</div>
 				<div>
 					<div class="send" v-if="light" @click="clickSend">
-						<span>发送</span>
+						<span>Send</span>
 					</div>
 					<svg v-else @click="bottomShow">
 						<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#addthing"></use>

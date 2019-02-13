@@ -11,7 +11,7 @@
 *	source:添加来源
 *	Messageblob:对话内容,
 *	newmeassage:对话最新一条消息
-*	sendobject:发送信息的对象(1是别人0是自己)
+*	sendobject:Send信息的对象(1是别人0是自己)
 *
 *
 *

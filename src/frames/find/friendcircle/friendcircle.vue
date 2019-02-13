@@ -93,7 +93,7 @@
 				<section class="criticism" v-if="criticismstate">
 					<div class="criticism_con">
 						<textarea name="" id="" cols="30" rows="10" ref="textinput" v-model="textareaVlue" @input="inputCriticism" @keyup.enter="enterThing"></textarea>
-						<span :class="{notempty:changeinput}" @click="commentSend">发送</span>
+						<span :class="{notempty:changeinput}" @click="commentSend">Send</span>
 					</div>
 				</section>
 			</section>
@@ -122,7 +122,7 @@
 				circleData:[],
 				likediv:false,			//点击时svg图放大
 				textareaVlue:'',		//评论输入的内容
-				changeinput:false,		//控制发送按钮状态的改变
+				changeinput:false,		//控制Send按钮状态的改变
 				criticismstate:false,	//评论显隐
 				itemlist:{},			//点击当前的li
 				userInfoData:{},			//用户信息
@@ -241,7 +241,7 @@
 			inputCriticism(){//文本框是否为空
 				this.textareaVlue ? this.changeinput=true : this.changeinput=false;
 			},
-			commentSend(){//评论点击发送
+			commentSend(){//评论点击Send
 				if(this.changeinput){
 					if(this.textareaVlue){
 						this.itemlist.comment.push({
