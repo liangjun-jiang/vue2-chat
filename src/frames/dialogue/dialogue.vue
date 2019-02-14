@@ -11,7 +11,7 @@
 							<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#computer"></use>
 						</svg>
 					</section>
-					<section class="computer_text">Windows ChatbotLogged In<span v-if="mute">， 手机通知已关闭</span></section>
+					<section class="computer_text">Windows ChatbotLogged In<span v-if="mute">, notificaiton not available</span></section>
 				</router-link>
 			</section>
 			<!-- 对话列表 -->
@@ -69,8 +69,8 @@
 			<div class="consumercon">
 				<section class="login">
 					<div class="useid" :class="{'useid_border' : borderColor}">
-						<div class="mark">User Account</div>
-						<div class="input_mark"><input type="text" placeholder="Chatbot号(anything)" v-model="inputaccounts" @input="inpuMark" @click="accountsMark" /></div>
+						<div class="mark">User Id</div>
+						<div class="input_mark"><input type="text" placeholder="(Id)" v-model="inputaccounts" @input="inpuMark" @click="accountsMark" /></div>
 						<div class="svg_close" v-if="accounts" @click="clearMark">
 							<svg fill="#c3c3c3">
 								<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use>

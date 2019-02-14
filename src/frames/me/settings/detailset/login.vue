@@ -3,8 +3,8 @@
 		<head-top logoPart="login"></head-top>
 		<section class="login">
 			<div class="useid" :class="{'useid_border' : borderColor}">
-				<div class="mark">User Account</div>
-				<div class="input_mark"><input type="text" placeholder="Chatbot account" v-model="inputaccounts" @input="inpuMark" @click="accountsMark" /></div>
+				<div class="mark">Id</div>
+				<div class="input_mark"><input type="text" placeholder="Id" v-model="inputaccounts" @input="inpuMark" @click="accountsMark" /></div>
 				<div class="svg_close" v-if="accounts" @click="clearMark">
 					<svg fill="#c3c3c3">
 						<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use>
@@ -13,7 +13,7 @@
 			</div>
 			<div class="useid" :class="{'useid_border' : borderColortwo}">
 				<div class="mark">Password</div>
-				<div class="input_mark"><input type="password" placeholder="Password(anything)" maxlength="16" @input="inpuCode" v-model="inputcode" @click="accountsCode" /></div>
+				<div class="input_mark"><input type="password" placeholder="Password" maxlength="16" @input="inpuCode" v-model="inputcode" @click="accountsCode" /></div>
 				<div class="svg_close" v-if="code" @click="clearCode">
 					<svg fill="#c3c3c3">
 						<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use>
