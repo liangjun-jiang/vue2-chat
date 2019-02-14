@@ -5,7 +5,7 @@ let baseUrl;
 if (process.env.NODE_ENV == 'development') {
 	baseUrl = 'http://localhost:8003'
 }else{
-	baseUrl = 'http://localhost:8003'
+	baseUrl = 'https://flight-bot-backend.azurewebsites.net/'
 }
 export {
 	baseUrl,
