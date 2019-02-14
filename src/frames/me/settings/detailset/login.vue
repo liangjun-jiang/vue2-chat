@@ -3,8 +3,8 @@
 		<head-top logoPart="login"></head-top>
 		<section class="login">
 			<div class="useid" :class="{'useid_border' : borderColor}">
-				<div class="mark">帐号</div>
-				<div class="input_mark"><input type="text" placeholder="Chatbot号(随便输入)" v-model="inputaccounts" @input="inpuMark" @click="accountsMark" /></div>
+				<div class="mark">User Account</div>
+				<div class="input_mark"><input type="text" placeholder="Chatbot account" v-model="inputaccounts" @input="inpuMark" @click="accountsMark" /></div>
 				<div class="svg_close" v-if="accounts" @click="clearMark">
 					<svg fill="#c3c3c3">
 						<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use>
@@ -12,8 +12,8 @@
 				</div>
 			</div>
 			<div class="useid" :class="{'useid_border' : borderColortwo}">
-				<div class="mark">密码</div>
-				<div class="input_mark"><input type="password" placeholder="密码(随便输入)" maxlength="16" @input="inpuCode" v-model="inputcode" @click="accountsCode" /></div>
+				<div class="mark">Password</div>
+				<div class="input_mark"><input type="password" placeholder="Password(anything)" maxlength="16" @input="inpuCode" v-model="inputcode" @click="accountsCode" /></div>
 				<div class="svg_close" v-if="code" @click="clearCode">
 					<svg fill="#c3c3c3">
 						<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use>
@@ -32,10 +32,10 @@
 	export default{
 		data(){
 			return{
-				inputaccounts: "",		//帐号	
-				inputcode: "",			//密码
-				accounts: false,		//清除帐号
-				code: false,			//清除密码
+				inputaccounts: "",		//User Account	
+				inputcode: "",			//Password
+				accounts: false,		//清除User Account
+				code: false,			//清除Password
 				borderColor:true,		//下边框颜色
 				borderColortwo: false	
 			}

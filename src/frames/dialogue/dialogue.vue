@@ -69,8 +69,8 @@
 			<div class="consumercon">
 				<section class="login">
 					<div class="useid" :class="{'useid_border' : borderColor}">
-						<div class="mark">帐号</div>
-						<div class="input_mark"><input type="text" placeholder="Chatbot号(随便输入)" v-model="inputaccounts" @input="inpuMark" @click="accountsMark" /></div>
+						<div class="mark">User Account</div>
+						<div class="input_mark"><input type="text" placeholder="Chatbot号(anything)" v-model="inputaccounts" @input="inpuMark" @click="accountsMark" /></div>
 						<div class="svg_close" v-if="accounts" @click="clearMark">
 							<svg fill="#c3c3c3">
 								<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use>
@@ -106,10 +106,10 @@
 				newtext:false,		//静音时消息提醒
 				dialogList:[],
 				consumer:false,
-				inputaccounts: "",		//帐号	
-				inputcode: "",			//密码
-				accounts: false,		//清除帐号
-				code: false,			//清除密码
+				inputaccounts: "",		//User Account	
+				inputcode: "",			//Password
+				accounts: false,		//清除User Account
+				code: false,			//清除Password
 				borderColor:true,		//下边框颜色
 				borderColortwo: false,
 				timer:null,	
