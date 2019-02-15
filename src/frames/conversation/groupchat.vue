@@ -126,7 +126,7 @@
 	import 'src/config/swiper.min.js' 
 	import 'src/style/swiper.min.css'
 	import fetch from 'src/config/fetch'
-	const socket = io('http://localhost:8003');
+	const socket = io('http://40.74.248.150:8003');
 	export default{ 
 		data(){
 			return{
