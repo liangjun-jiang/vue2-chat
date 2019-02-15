@@ -5,6 +5,6 @@ const serveStatic = require('serve-static');
 
 let app = express();
 app.use(serveStatic(__dirname + "/weixin"));
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 80;
 app.listen(port);
 console.log('server started '+ port);
