@@ -3,9 +3,9 @@ const imgurl =  'https://picsum.photos/200/300/?random'//'http://localhost/files
 let baseUrl;
 
 if (process.env.NODE_ENV == 'development') {
-	baseUrl = 'http://localhost:8003'
+	baseUrl = 'http://40.74.248.150:8003' //'http://localhost:8003' //
 }else{
-	baseUrl = 'https://flight-bot-backend.azurewebsites.net/'
+	baseUrl = 'http://40.74.248.150:8003'//'https://flight-bot-backend.azurewebsites.net/'
 }
 export {
 	baseUrl,
